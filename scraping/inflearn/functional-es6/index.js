@@ -1,10 +1,9 @@
-// TODO: inflearn 강의 스크립트를 가져오는 스크립트
-// selenium으로 변경해야 한다.. ㅠㅠ
+// inflearn 강의 스크립트를 가져오는 스크립트
+// TODO: api fetch로는 전체 데이터를 가져올 수 없어서 변경 필요!
 // https://www.inflearn.com/course/functional-es6/dashboard
 
 const courseName = "functional-es6";
 const courseData = require(`./${courseName}.json`);
-const { log } = require("console");
 const fs = require("fs");
 const path = require("path");
 /**
