@@ -15,6 +15,7 @@ const run = async () => {
         "#header > nav > div.container.desktop_container > div > div.navbar-menu > div.navbar-right > div.navbar-item.buttons > button.button.space-inset-4.signin"
       )
     );
+    // 로그인
     await signInButton.click();
     const emailInput = await driver.findElement(
       By.css("#root > div.modal > article > form > div > input")
@@ -30,6 +31,26 @@ const run = async () => {
       By.css("#root > div.modal > article > form > button")
     );
     await loginButton.click();
+
+    await driver.manage().setTimeouts({ implicit: 2000 });
+
+    /**
+     * 강의 예시 목록
+     * 1-1  : #curriculum > div.cd-curriculum__content > div > div:nth-child(1) > div.cd-accordion__unit-cover > a:nth-child(1)
+     * 2-1  : #curriculum > div.cd-curriculum__content > div > div:nth-child(2) > div.cd-accordion__unit-cover > a:nth-child(1)
+     * 11-1 : #curriculum > div.cd-curriculum__content > div > div:nth-child(11) > div.cd-accordion__unit-cover > a:nth-child(1)
+     */
+
+    // one base index
+    const section = 1;
+    const unit = 1;
+    const lecture = await driver.findElement(
+      By.css(
+        `#curriculum > div.cd-curriculum__content > div > div:nth-child(${section}) > div.cd-accordion__unit-cover > a:nth-child(${unit})`
+      )
+    );
+    const actions = driver.actions({ async: true });
+    await actions.move({ origin: lecture }).click().perform();
   } catch (e) {
     console.log(e);
   } finally {
