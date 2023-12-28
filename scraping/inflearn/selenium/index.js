@@ -5,17 +5,14 @@ const run = async () => {
   let driver = await new Builder().forBrowser("chrome").build();
 
   try {
-    // 특정 URL 생성
     await driver.get("https://www.inflearn.com/course/functional-es6");
 
-    let userAgent = await driver.executeScript("return navigator.userAgent;");
-    console.log("[UserAgent]", userAgent);
+    // 로그인
     const signInButton = await driver.findElement(
       By.css(
         "#header > nav > div.container.desktop_container > div > div.navbar-menu > div.navbar-right > div.navbar-item.buttons > button.button.space-inset-4.signin"
       )
     );
-    // 로그인
     await signInButton.click();
     const emailInput = await driver.findElement(
       By.css("#root > div.modal > article > form > div > input")
@@ -43,14 +40,65 @@ const run = async () => {
 
     // one base index
     const section = 1;
-    const unit = 1;
+    const unit = 2;
+
+    await driver.manage().setTimeouts({ implicit: 5000 });
+
     const lecture = await driver.findElement(
       By.css(
         `#curriculum > div.cd-curriculum__content > div > div:nth-child(${section}) > div.cd-accordion__unit-cover > a:nth-child(${unit})`
       )
     );
-    const actions = driver.actions({ async: true });
-    await actions.move({ origin: lecture }).click().perform();
+
+    // 자바스크립트 명령어를 이용하여 클릭
+    await driver.executeScript("arguments[0].click();", lecture);
+
+    const scriptButton = await driver.findElement(
+      By.css("#root > div.css-axirao > ul > li:nth-child(5) > button")
+    );
+    await scriptButton.click();
+
+    const acceptButton = await driver.findElement(
+      By.css(
+        "#root > aside.react-draggable.css-z4ycl5 > div:nth-child(5) > div > div.mantine-Modal-inner.mantine-Modal-inner.mantine-zut3ou > section > footer > div > button"
+      )
+    );
+
+    if (acceptButton) {
+      await acceptButton.click();
+    }
+
+    // 스크립트를 가져오면서 위치 이동
+    let index = 1;
+    while (true) {
+      try {
+        const timeEl = await driver.findElement(
+          By.css(
+            `#root > aside.react-draggable.css-z4ycl5 > div.List.css-zvuxhh > div > div > div > div > div:nth-child(${index}) > div > div > span`
+          )
+        );
+
+        const scriptEl = await driver.findElement(
+          By.css(
+            `#root > aside.react-draggable.css-z4ycl5 > div.List.css-zvuxhh > div > div > div > div > div:nth-child(${index}) > div > p`
+          )
+        );
+
+        if (!timeEl.isDisplayed || !scriptEl.isDisplayed) {
+          break;
+        }
+
+        const time = await timeEl.getText().then((text) => text.trim());
+        const script = await scriptEl.getText().then((text) => text.trim());
+        driver.executeScript("arguments[0].scrollIntoView(true);", scriptEl);
+
+        console.log(time, script);
+        index++;
+      } catch (error) {
+        console.log(error);
+        break;
+      }
+    }
   } catch (e) {
     console.log(e);
   } finally {
