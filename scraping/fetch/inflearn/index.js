@@ -3,7 +3,7 @@
 // https://www.inflearn.com/course/functional-es6/dashboard
 
 const courseName = "functional-es6";
-const courseData = require(`./${courseName}.json`);
+const courseData = require(`./json/${courseName}.json`);
 const fs = require("fs");
 const path = require("path");
 /**
