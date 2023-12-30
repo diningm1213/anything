@@ -45,7 +45,7 @@ const parseScript = (script) => {
   return script
     .map(
       ({ start = 0, end = 0, text = "" }) =>
-        `${parseTime(start)} ~ ${parseTime(end)}  ${text}`
+        `${parseTime(start)} ~ ${parseTime(end)} - ${text}`
     )
     .join("\n");
 };
