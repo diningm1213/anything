@@ -130,3 +130,4 @@ dist
 .pnp.*
 
 srt
+ref-dic-list.mjs
