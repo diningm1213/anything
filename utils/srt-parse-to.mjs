@@ -20,9 +20,8 @@ export const parseScript = (name, file) => {
     content += `${item.line}\n`;
   });
 
-  const scripts = `
-# ${name}
-  
+  const scripts = `# ${name}
+
 {% tabs %}
 {% tab title="content" %}
 {% code lineNumbers="true" %}

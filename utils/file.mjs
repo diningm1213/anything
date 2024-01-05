@@ -27,17 +27,21 @@ const parseFileAndChangeExtension = (oldDir, newDir, parser, newExt = "") => {
   list.forEach(async (file) => {
     const oldFilePath = `${oldDir}/${file}`;
     const newFilePath = `${newDir}/${
-      newExt ? changeExtension(file, newExt) : file
+      newExt ? changeExtension(file.substring(0, 8), newExt) : file
     }`;
 
     const oldFile = fs.readFileSync(oldFilePath);
-    const newFile = await parser("file", oldFile);
+    const newFile = await parser(changeExtension(file, newExt), oldFile);
     fs.writeFileSync(newFilePath, newFile);
   });
 };
 
-const changeExtension = (file, newExtension) => {
-  return path.basename(file, path.extname(file)) + newExtension;
+const getBaseName = (file) => {
+  return path.basename(file, path.extname(file));
 };
 
-parseFileAndChangeExtension("./srt", "./md", parseScript, ".md");
+const changeExtension = (file, newExtension) => {
+  return getBaseName(file) + newExtension;
+};
+
+// parseFileAndChangeExtension("./srt", "./md", parseScript, ".md");
