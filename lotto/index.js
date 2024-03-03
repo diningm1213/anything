@@ -4,7 +4,8 @@ const random = (min, max) => {
   return Math.floor(Math.random() * (max - min)) + min;
 };
 
-const lotto = async (count) => {
+const lotto = (count) => {
+  const lottoList =[];
   for (let index = 0; index < count; index++) {
     const lotto = new Set();
     while (lotto.size < 6) {
@@ -12,11 +13,15 @@ const lotto = async (count) => {
       lotto.add(num);
       lottoMap.set(num, (lottoMap.get(num) || 0) + 1);
     }
-    console.log(Array.from(lotto).sort((a, b) => a - b));
+    lottoList.push(Array.from(lotto).sort((a, b) => a - b));
   }
 
-  console.log(Array.from(lottoMap.entries()).sort((a, b) => a[0] - b[0]));
+  // console.log(lottoList);
+  // console.log(Array.from(lottoMap.entries()).sort((a, b) => a[0] - b[0]));
+  return lottoList;
 };
+
+module.exports.lotto = lotto;
 
 const welfareLottery720 = (count) => {
   for (let index = 0; index < count; index++) {

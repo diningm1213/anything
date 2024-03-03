@@ -5,9 +5,6 @@ const path = require("path");
 const LECTURE_COURSE = "functional-es6";
 require("dotenv").config();
 
-console.log(process.env.INFLEARN_EMAIL);
-console.log(process.env.INFLEARN_PASSWORD);
-
 const run = async () => {
   let driver = await new Builder().forBrowser("chrome").build();
 
