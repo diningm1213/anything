@@ -11,14 +11,17 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
   if (type === "select") {
     const selector = request.selector;
-    const element = document.querySelectorAll(selector)[0];
-    const innerText = element.innerText;
-
-    sendResponse({ text: innerText });
+    const elements = document.querySelectorAll(selector);
+    sendResponse({ texts: [...elements].map((element) => element.innerText) });
   } else if (type === "translate") {
+    console.log({ request });
     const selector = request.selector;
     const translatedText = request.translatedText;
-    const element = document.querySelectorAll(selector)[0];
+    const index = request.index;
+
+    const elements = document.querySelectorAll(selector);
+    const element = elements[index * 2];
+
     const dupNode = element.cloneNode(true);
     dupNode.innerText = translatedText;
     element.appendChild(dupNode);

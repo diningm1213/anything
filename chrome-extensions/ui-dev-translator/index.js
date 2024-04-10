@@ -11,7 +11,6 @@ const button = document.getElementById("button");
 
 button.addEventListener("click", async () => {
   const selector = document.getElementById("selector");
-  console.log(selector.value);
 
   let tab = await getCurrentTab();
 
@@ -20,37 +19,50 @@ button.addEventListener("click", async () => {
       tab.id,
       { type: "select", selector: selector.value },
       async function (response) {
-        const text = response.text;
-        const api_url =
-          "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation";
-        const payload = new URLSearchParams({
-          source: "en",
-          target: "ko",
-          text,
+        const texts = response.texts;
+        texts.forEach(async (text, index) => {
+          let translatedText = localStorage.getItem(text);
+
+          if (!translatedText) {
+            const api_url =
+              "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation";
+            const payload = new URLSearchParams({
+              source: "en",
+              target: "ko",
+              text,
+            });
+
+            const options = {
+              method: "POST",
+              body: payload,
+              headers: {
+                "X-NCP-APIGW-API-KEY-ID": key.client_id,
+                "X-NCP-APIGW-API-KEY": key.client_secret,
+              },
+            };
+
+            const res = await fetch(api_url, options);
+            const { message } = await res.json();
+            console.log(res, message);
+            translatedText = message.result.translatedText;
+
+            localStorage.setItem(text, translatedText);
+          }
+
+          tab &&
+            chrome.tabs.sendMessage(
+              tab.id,
+              {
+                type: "translate",
+                selector: selector.value,
+                index,
+                translatedText,
+              },
+              function (response) {
+                console.log(response);
+              }
+            );
         });
-
-        const options = {
-          method: "POST",
-          body: payload,
-          headers: {
-            "X-NCP-APIGW-API-KEY-ID": key.client_id,
-            "X-NCP-APIGW-API-KEY": key.client_secret,
-          },
-        };
-
-        const res = await fetch(api_url, options);
-        const { message } = await res.json();
-        console.log(res, message);
-        const translatedText = message.result.translatedText;
-
-        tab &&
-          chrome.tabs.sendMessage(
-            tab.id,
-            { type: "translate", selector: selector.value, translatedText },
-            function (response) {
-              console.log(response);
-            }
-          );
       }
     );
   // tab &&
