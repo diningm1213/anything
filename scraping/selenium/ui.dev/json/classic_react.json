@@ -1,0 +1,149 @@
+[
+  {
+    "title": "React Overview",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/why-react",
+      "https://ui.dev/c/classic-react/imperative-vs-declarative"
+    ]
+  },
+  {
+    "title": "The Road to Hello World",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/npm",
+      "https://ui.dev/c/classic-react/webpack",
+      "https://ui.dev/c/classic-react/1-first-component",
+      "https://ui.dev/c/classic-react/jsx",
+      "https://ui.dev/c/classic-react/elements-vs-components"
+    ]
+  },
+  {
+    "title": "Passing Data to Components",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/props",
+      "https://ui.dev/c/classic-react/props-practice-1",
+      "https://ui.dev/c/classic-react/props-solution-1",
+      "https://ui.dev/c/classic-react/props-practice-2",
+      "https://ui.dev/c/classic-react/props-solution-2",
+      "https://ui.dev/c/classic-react/props-practice-3",
+      "https://ui.dev/c/classic-react/props-solution-3"
+    ]
+  },
+  {
+    "title": "Rendering Lists",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/lists",
+      "https://ui.dev/c/classic-react/lists-practice-1",
+      "https://ui.dev/c/classic-react/lists-solution-1",
+      "https://ui.dev/c/classic-react/lists-practice-2",
+      "https://ui.dev/c/classic-react/lists-solution-2",
+      "https://ui.dev/c/classic-react/2-popular-navbar"
+    ]
+  },
+  {
+    "title": "Managing State",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/this",
+      "https://ui.dev/c/classic-react/state",
+      "https://ui.dev/c/classic-react/state-practice-1",
+      "https://ui.dev/c/classic-react/state-solution-1",
+      "https://ui.dev/c/classic-react/state-practice-2",
+      "https://ui.dev/c/classic-react/state-solution-2",
+      "https://ui.dev/c/classic-react/state-practice-3",
+      "https://ui.dev/c/classic-react/state-solution-3",
+      "https://ui.dev/c/classic-react/3-navbar-state"
+    ]
+  },
+  {
+    "title": "Functional Components",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/function-components",
+      "https://ui.dev/c/classic-react/4-languages-nav"
+    ]
+  },
+  {
+    "title": "Validating Props with PropTypes",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/proptypes",
+      "https://ui.dev/c/classic-react/proptypes-practice",
+      "https://ui.dev/c/classic-react/proptypes-solution",
+      "https://ui.dev/c/classic-react/5-languages-nav-proptypes"
+    ]
+  },
+  {
+    "title": "The Component Lifecycle",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/component-lifecycle",
+      "https://ui.dev/c/classic-react/6-fetch-repos",
+      "https://ui.dev/c/classic-react/7-repos-table"
+    ]
+  },
+  {
+    "title": "Handling Form State",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/controlled-vs-uncontrolled",
+      "https://ui.dev/c/classic-react/8-player-input",
+      "https://ui.dev/c/classic-react/9-player-preview",
+      "https://ui.dev/c/classic-react/10-results-skeleton",
+      "https://ui.dev/c/classic-react/11-api",
+      "https://ui.dev/c/classic-react/12-results"
+    ]
+  },
+  {
+    "title": "Building Reusable Components",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/children",
+      "https://ui.dev/c/classic-react/default-props",
+      "https://ui.dev/c/classic-react/13-loading"
+    ]
+  },
+  {
+    "title": "Code Sharing",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/higher-order-components",
+      "https://ui.dev/c/classic-react/14-tooltip",
+      "https://ui.dev/c/classic-react/15-with-hover",
+      "https://ui.dev/c/classic-react/render-props",
+      "https://ui.dev/c/classic-react/16-hover"
+    ]
+  },
+  {
+    "title": "Bypassing Props with Context",
+    "hrefList": ["https://ui.dev/c/classic-react/context"]
+  },
+  {
+    "title": "React Router",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/react-router-fundamentals",
+      "https://ui.dev/c/classic-react/17-routes",
+      "https://ui.dev/c/classic-react/18-navbar",
+      "https://ui.dev/c/classic-react/query-strings",
+      "https://ui.dev/c/classic-react/19-with-search-params"
+    ]
+  },
+  {
+    "title": "Better Classes with Class Fields",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/class-fields",
+      "https://ui.dev/c/classic-react/20-class-fields"
+    ]
+  },
+  {
+    "title": "Performance Gains with Code Splitting",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/code-splitting",
+      "https://ui.dev/c/classic-react/21-code-split"
+    ]
+  },
+  {
+    "title": "Production Builds and Hosting",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/production",
+      "https://ui.dev/c/classic-react/22-production-build",
+      "https://ui.dev/c/classic-react/23-vercel"
+    ]
+  },
+  {
+    "title": "Outro",
+    "hrefList": ["https://ui.dev/c/classic-react/thank-you"]
+  }
+]

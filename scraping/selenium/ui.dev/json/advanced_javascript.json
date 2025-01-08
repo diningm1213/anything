@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Introduction",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/introduction-philosophy-and-tips"
+    ]
+  },
+  {
+    "title": "Execution Contexts",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript"
+    ]
+  },
+  {
+    "title": "The this Keyword",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/this-keyword-call-apply-bind-javascript"
+    ]
+  },
+  {
+    "title": "The Event Loop",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/the-javascript-event-loop-a-simple-guide"
+    ]
+  },
+  {
+    "title": "Async JavaScript",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/async-javascript-from-callbacks-to-promises-to-async-await"
+    ]
+  },
+  {
+    "title": "JavaScript's Prototype",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/beginners-guide-to-javascript-prototype"
+    ]
+  },
+  {
+    "title": "Class Fields",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/javascript-private-and-public-class-fields"
+    ]
+  },
+  {
+    "title": "Inheritance",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/javascript-inheritance-and-the-prototype-chain"
+    ]
+  },
+  {
+    "title": "JavaScript Modules",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/javascript-modules-iifes-commonjs-esmodules"
+    ]
+  },
+  {
+    "title": "Bonus Time",
+    "hrefList": [
+      "https://ui.dev/c/advanced-javascript/javascript-inheritance-vs-composition",
+      "https://ui.dev/c/advanced-javascript/javascript-array-methods-you-should-know",
+      "https://ui.dev/c/advanced-javascript/creating-your-own-array"
+    ]
+  },
+  {
+    "title": "Outro",
+    "hrefList": ["https://ui.dev/c/advanced-javascript/outro"]
+  }
+]

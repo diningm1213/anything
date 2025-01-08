@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Introduction",
+    "hrefList": [
+      "https://ui.dev/c/modern-javascript/introduction-philosophy-and-tips"
+    ]
+  },
+  {
+    "title": "TC39",
+    "hrefList": ["https://ui.dev/c/modern-javascript/ecmascript"]
+  },
+  {
+    "title": "Variable Declarations",
+    "hrefList": [
+      "https://ui.dev/c/modern-javascript/variable-declarations-var-vs-let-vs-const"
+    ]
+  },
+  {
+    "title": "Destructuring",
+    "hrefList": [
+      "https://ui.dev/c/modern-javascript/object-array-destructuring"
+    ]
+  },
+  {
+    "title": "Shorthand Syntax",
+    "hrefList": ["https://ui.dev/c/modern-javascript/shorthand-properties"]
+  },
+  {
+    "title": "Computed Property Names",
+    "hrefList": ["https://ui.dev/c/modern-javascript/computed-property-names"]
+  },
+  {
+    "title": "Template Literals",
+    "hrefList": ["https://ui.dev/c/modern-javascript/template-literals"]
+  },
+  {
+    "title": "Arrow Functions",
+    "hrefList": ["https://ui.dev/c/modern-javascript/arrow-functions"]
+  },
+  {
+    "title": "Default Parameters",
+    "hrefList": ["https://ui.dev/c/modern-javascript/default-parameters"]
+  },
+  {
+    "title": "Compiling vs Polyfills",
+    "hrefList": ["https://ui.dev/c/modern-javascript/compiling-polyfills"]
+  },
+  {
+    "title": "Async JavaScript",
+    "hrefList": [
+      "https://ui.dev/c/modern-javascript/callbacks-promises-async-await"
+    ]
+  },
+  {
+    "title": "Classes",
+    "hrefList": ["https://ui.dev/c/modern-javascript/prototype-es6-classes"]
+  },
+  {
+    "title": "JavaScript Modules",
+    "hrefList": [
+      "https://ui.dev/c/modern-javascript/from-iifes-to-commonjs-to-es6-modules"
+    ]
+  },
+  {
+    "title": "Class Fields",
+    "hrefList": [
+      "https://ui.dev/c/modern-javascript/private-and-public-class-fields"
+    ]
+  },
+  {
+    "title": "Outro",
+    "hrefList": ["https://ui.dev/c/modern-javascript/outro"]
+  }
+]

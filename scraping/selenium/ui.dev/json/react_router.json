@@ -1,0 +1,138 @@
+[
+  {
+    "title": "The Fundamentals",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-the-fundamentals",
+      "https://ui.dev/c/react-router/practice-the-fundamentals",
+      "https://ui.dev/c/react-router/solution-the-fundamentals",
+      "https://ui.dev/c/react-router/project-1-starter-code",
+      "https://ui.dev/c/react-router/project-2-initial-routes"
+    ]
+  },
+  {
+    "title": "URL Parameters",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-url-parameters",
+      "https://ui.dev/c/react-router/practice-url-parameters",
+      "https://ui.dev/c/react-router/solution-url-parameters",
+      "https://ui.dev/c/react-router/project-3-home"
+    ]
+  },
+  {
+    "title": "Query Strings",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-query-strings",
+      "https://ui.dev/c/react-router/practice-query-strings",
+      "https://ui.dev/c/react-router/solution-query-strings",
+      "https://ui.dev/c/react-router/project-4-teampage"
+    ]
+  },
+  {
+    "title": "Customizing Link",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-custom-link",
+      "https://ui.dev/c/react-router/practice-customizing-link",
+      "https://ui.dev/c/react-router/solution-customizing-link",
+      "https://ui.dev/c/react-router/project-5-players"
+    ]
+  },
+  {
+    "title": "Nested Routes",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-nested-routes",
+      "https://ui.dev/c/react-router/practice-nested-routes",
+      "https://ui.dev/c/react-router/solution-nested-routes",
+      "https://ui.dev/c/react-router/practice-nested-routes-outlet",
+      "https://ui.dev/c/react-router/solution-nested-routes-outlet",
+      "https://ui.dev/c/react-router/project-6-player",
+      "https://ui.dev/c/react-router/project-7-team",
+      "https://ui.dev/c/react-router/project-8-articles",
+      "https://ui.dev/c/react-router/project-9-loading"
+    ]
+  },
+  {
+    "title": "Programmatically Navigate",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-programmatically-navigate",
+      "https://ui.dev/c/react-router/practice-navigate-declarative",
+      "https://ui.dev/c/react-router/solution-navigate-declarative",
+      "https://ui.dev/c/react-router/practice-navigate-imperative",
+      "https://ui.dev/c/react-router/solution-navigate-imperative",
+      "https://ui.dev/c/react-router/project-10-navigate"
+    ]
+  },
+  {
+    "title": "Code Splitting",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-code-splitting",
+      "https://ui.dev/c/react-router/practice-react-lazy",
+      "https://ui.dev/c/react-router/solution-react-lazy",
+      "https://ui.dev/c/react-router/project-11-split"
+    ]
+  },
+  {
+    "title": "Route Configs",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-route-config",
+      "https://ui.dev/c/react-router/practice-route-config",
+      "https://ui.dev/c/react-router/solution-route-config",
+      "https://ui.dev/c/react-router/project-12-config"
+    ]
+  },
+  {
+    "title": "Animated Transitions",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-animated-transitions"
+    ]
+  },
+  {
+    "title": "Protected Routes",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-protected-routes",
+      "https://ui.dev/c/react-router/practice-protected-routes",
+      "https://ui.dev/c/react-router/solution-protected-routes"
+    ]
+  },
+  {
+    "title": "404 Pages",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-handling-404-pages",
+      "https://ui.dev/c/react-router/practice-catch-all-routes",
+      "https://ui.dev/c/react-router/solution-catch-all-routes"
+    ]
+  },
+  {
+    "title": "Passing Props to Link",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-pass-props-to-link",
+      "https://ui.dev/c/react-router/practice-passing-props-to-link",
+      "https://ui.dev/c/react-router/solution-passing-props-to-link"
+    ]
+  },
+  {
+    "title": "Sidebars",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-sidebar-breadcrumbs",
+      "https://ui.dev/c/react-router/practice-sidebar",
+      "https://ui.dev/c/react-router/solution-sidebar"
+    ]
+  },
+  {
+    "title": "Preventing Transitions",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-preventing-transitions"
+    ]
+  },
+  {
+    "title": "Bonus",
+    "hrefList": [
+      "https://ui.dev/c/react-router/react-router-pass-props-to-components",
+      "https://ui.dev/c/react-router/react-router-recursive-paths",
+      "https://ui.dev/c/react-router/react-router-server-rendering"
+    ]
+  },
+  {
+    "title": "Outro",
+    "hrefList": ["https://ui.dev/c/react-router/outro"]
+  }
+]

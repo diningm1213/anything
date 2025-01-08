@@ -1,0 +1,126 @@
+[
+  {
+    "title": "Introduction",
+    "hrefList": ["https://ui.dev/c/redux/introduction-philosophy-and-tips"]
+  },
+  {
+    "title": "The Store",
+    "hrefList": [
+      "https://ui.dev/c/redux/what-is-the-redux-store",
+      "https://ui.dev/c/redux/project-create-store-getting-the-state",
+      "https://ui.dev/c/redux/project-create-store-listening-to-changes",
+      "https://ui.dev/c/redux/representing-state-transformations-as-actions",
+      "https://ui.dev/c/redux/project-create-store-updating-the-state",
+      "https://ui.dev/c/redux/project-the-reducer-function",
+      "https://ui.dev/c/redux/project-create-store-dispatching-changes",
+      "https://ui.dev/c/redux/project-handling-more-actions",
+      "https://ui.dev/c/redux/project-combining-reducers",
+      "https://ui.dev/c/redux/reducer-composition",
+      "https://ui.dev/c/redux/project-leveraging-constants",
+      "https://ui.dev/c/redux/project-action-creators",
+      "https://ui.dev/c/redux/review-the-store-actions-and-reducers"
+    ]
+  },
+  {
+    "title": "UI",
+    "hrefList": [
+      "https://ui.dev/c/redux/project-app-scaffolding",
+      "https://ui.dev/c/redux/project-basic-ui",
+      "https://ui.dev/c/redux/project-dispatching-new-items",
+      "https://ui.dev/c/redux/project-subscribing-for-ui-updates",
+      "https://ui.dev/c/redux/project-dispatching-to-remove-items",
+      "https://ui.dev/c/redux/project-this-is-redux",
+      "https://ui.dev/c/redux/review-ui"
+    ]
+  },
+  {
+    "title": "Middleware",
+    "hrefList": [
+      "https://ui.dev/c/redux/project-customizing-dispatch",
+      "https://ui.dev/c/redux/project-utilizing-redux-middleware",
+      "https://ui.dev/c/redux/redux-middleware",
+      "https://ui.dev/c/redux/project-logger-middleware"
+    ]
+  },
+  {
+    "title": "Redux with React",
+    "hrefList": [
+      "https://ui.dev/c/redux/project-adding-in-react",
+      "https://ui.dev/c/redux/project-dispatching-todos-with-react",
+      "https://ui.dev/c/redux/project-dispatching-goals-with-react",
+      "https://ui.dev/c/redux/project-lists-with-react-and-redux",
+      "https://ui.dev/c/redux/project-toggling-ui-with-redux"
+    ]
+  },
+  {
+    "title": "Async Redux",
+    "hrefList": [
+      "https://ui.dev/c/redux/project-handling-initial-data",
+      "https://ui.dev/c/redux/project-loading-states-with-redux",
+      "https://ui.dev/c/redux/project-optimistically-deleting-items",
+      "https://ui.dev/c/redux/project-optimistically-toggling-todos",
+      "https://ui.dev/c/redux/project-persisting-items",
+      "https://ui.dev/c/redux/project-custom-thunk",
+      "https://ui.dev/c/redux/more-on-redux-thunks",
+      "https://ui.dev/c/redux/project-thunkify-goals",
+      "https://ui.dev/c/redux/project-thunkify-todos",
+      "https://ui.dev/c/redux/project-thunkify-initial-data",
+      "https://ui.dev/c/redux/project-redux-thunk-middleware",
+      "https://ui.dev/c/redux/more-asynchronous-options"
+    ]
+  },
+  {
+    "title": "react-redux",
+    "hrefList": [
+      "https://ui.dev/c/redux/downsides-of-react-and-redux",
+      "https://ui.dev/c/redux/react-s-context-api",
+      "https://ui.dev/c/redux/project-utilizing-context",
+      "https://ui.dev/c/redux/project-connect-to-store",
+      "https://ui.dev/c/redux/project-implementing-connect",
+      "https://ui.dev/c/redux/project-using-react-redux"
+    ]
+  },
+  {
+    "title": "Folder Structure",
+    "hrefList": [
+      "https://ui.dev/c/redux/project-redux-folder-structure-cra",
+      "https://ui.dev/c/redux/project-redux-folder-structure-actions",
+      "https://ui.dev/c/redux/project-redux-folder-structure-reducers",
+      "https://ui.dev/c/redux/project-redux-folder-structure-middleware",
+      "https://ui.dev/c/redux/project-redux-folder-structure-components",
+      "https://ui.dev/c/redux/project-redux-folder-structure-the-store",
+      "https://ui.dev/c/redux/other-folder-structure-patterns"
+    ]
+  },
+  {
+    "title": "Hooks",
+    "hrefList": [
+      "https://ui.dev/c/redux/why-react-hooks",
+      "https://ui.dev/c/redux/redux-hooks",
+      "https://ui.dev/c/redux/project-refactor"
+    ]
+  },
+  {
+    "title": "Real World Redux",
+    "hrefList": [
+      "https://ui.dev/c/redux/project-introduction-to-polls",
+      "https://ui.dev/c/redux/project-starter-code",
+      "https://ui.dev/c/redux/project-authed-user",
+      "https://ui.dev/c/redux/project-users",
+      "https://ui.dev/c/redux/project-loading",
+      "https://ui.dev/c/redux/project-polls",
+      "https://ui.dev/c/redux/project-answers",
+      "https://ui.dev/c/redux/project-shared",
+      "https://ui.dev/c/redux/project-logger",
+      "https://ui.dev/c/redux/project-leaderboard",
+      "https://ui.dev/c/redux/project-dashboard",
+      "https://ui.dev/c/redux/project-add-poll",
+      "https://ui.dev/c/redux/project-routes",
+      "https://ui.dev/c/redux/project-poll"
+    ]
+  },
+  {
+    "title": "Next Steps",
+    "hrefList": ["https://ui.dev/c/redux/next-steps"]
+  }
+]

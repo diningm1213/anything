@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Welcome",
+    "hrefList": ["https://ui.dev/c/query/getting-started"]
+  },
+  {
+    "title": "Laying The Foundation",
+    "hrefList": [
+      "https://ui.dev/c/query/why-react-query",
+      "https://ui.dev/c/query/query-fundamentals",
+      "https://ui.dev/c/query/deduplication",
+      "https://ui.dev/c/query/query-lifecycle",
+      "https://ui.dev/c/query/queries-caching-and-observers"
+    ]
+  },
+  {
+    "title": "Querying Data",
+    "hrefList": [
+      "https://ui.dev/c/query/fetching-data",
+      "https://ui.dev/c/query/managing-query-dependencies",
+      "https://ui.dev/c/query/data-synchronization",
+      "https://ui.dev/c/query/fetching-on-demand",
+      "https://ui.dev/c/query/garbage-collection"
+    ]
+  },
+  {
+    "title": "Advanced Query Patterns",
+    "hrefList": [
+      "https://ui.dev/c/query/polling",
+      "https://ui.dev/c/query/dependent-queries",
+      "https://ui.dev/c/query/parallel-queries",
+      "https://ui.dev/c/query/avoiding-loading-states",
+      "https://ui.dev/c/query/pagination",
+      "https://ui.dev/c/query/infinite-queries"
+    ]
+  },
+  {
+    "title": "Handling User Interactions",
+    "hrefList": [
+      "https://ui.dev/c/query/mutations",
+      "https://ui.dev/c/query/optimistic-updates"
+    ]
+  },
+  {
+    "title": "Scaling Your App",
+    "hrefList": [
+      "https://ui.dev/c/query/customizing-defaults",
+      "https://ui.dev/c/query/managing-query-keys",
+      "https://ui.dev/c/query/performance-optimizations",
+      "https://ui.dev/c/query/error-handling",
+      "https://ui.dev/c/query/validating-query-data"
+    ]
+  },
+  {
+    "title": "Plugins & Adapters",
+    "hrefList": [
+      "https://ui.dev/c/query/offline-support",
+      "https://ui.dev/c/query/persisting-queries-mutations",
+      "https://ui.dev/c/query/building-an-adapter"
+    ]
+  },
+  {
+    "title": "Testing",
+    "hrefList": ["https://ui.dev/c/query/testing"]
+  },
+  {
+    "title": "Bonus Time",
+    "hrefList": [
+      "https://ui.dev/c/query/suspense",
+      "https://ui.dev/c/query/server-side-rendering",
+      "https://ui.dev/c/query/streaming-ssr",
+      "https://ui.dev/c/query/websockets"
+    ]
+  },
+  {
+    "title": "Before you go...",
+    "hrefList": ["https://ui.dev/c/query/next-steps"]
+  }
+]

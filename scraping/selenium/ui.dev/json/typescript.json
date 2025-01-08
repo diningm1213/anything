@@ -1,0 +1,173 @@
+[
+  {
+    "title": "Introduction",
+    "hrefList": [
+      "https://ui.dev/c/typescript/introduction-philosophy-and-tips",
+      "https://ui.dev/c/typescript/projects"
+    ]
+  },
+  {
+    "title": "TypeScript Overview",
+    "hrefList": [
+      "https://ui.dev/c/typescript/typescript-glossary",
+      "https://ui.dev/c/typescript/why-typescript"
+    ]
+  },
+  {
+    "title": "Typing in JavaScript",
+    "hrefList": ["https://ui.dev/c/typescript/javascript-types"]
+  },
+  {
+    "title": "Getting TypeScript Configured",
+    "hrefList": ["https://ui.dev/c/typescript/basic-typescript-configuration"]
+  },
+  {
+    "title": "Basic Type Checking",
+    "hrefList": [
+      "https://ui.dev/c/typescript/implicit-type-checking",
+      "https://ui.dev/c/typescript/adding-type-annotations-with-typescript",
+      "https://ui.dev/c/typescript/typing-function-declarations-with-typescript",
+      "https://ui.dev/c/typescript/practice-type-annotations",
+      "https://ui.dev/c/typescript/solution-type-annotations"
+    ]
+  },
+  {
+    "title": "Special TypeScript Types",
+    "hrefList": [
+      "https://ui.dev/c/typescript/any-and-unknown",
+      "https://ui.dev/c/typescript/interfaces-in-typescript",
+      "https://ui.dev/c/typescript/practice-interfaces",
+      "https://ui.dev/c/typescript/solution-interfaces",
+      "https://ui.dev/c/typescript/enum-and-tuple-types-in-typescript",
+      "https://ui.dev/c/typescript/void-and-never-types-in-typescript",
+      "https://ui.dev/c/typescript/type-aliases-in-typescript",
+      "https://ui.dev/c/typescript/typescript-union-types",
+      "https://ui.dev/c/typescript/typescript-intersection-types",
+      "https://ui.dev/c/typescript/literal-types",
+      "https://ui.dev/c/typescript/practice-union-and-literal-types",
+      "https://ui.dev/c/typescript/solution-union-literal-types"
+    ]
+  },
+  {
+    "title": "Tic Tac Toe",
+    "hrefList": [
+      "https://ui.dev/c/typescript/tic-tac-toe-starting-template",
+      "https://ui.dev/c/typescript/tic-tac-toe-adding-initial-types",
+      "https://ui.dev/c/typescript/tic-tac-toe-cell-event-handler",
+      "https://ui.dev/c/typescript/tic-tac-toe-win-condition"
+    ]
+  },
+  {
+    "title": "Classes",
+    "hrefList": [
+      "https://ui.dev/c/typescript/typescript-class-definitions",
+      "https://ui.dev/c/typescript/class-modifiers-in-typescript",
+      "https://ui.dev/c/typescript/practice-classes",
+      "https://ui.dev/c/typescript/solution-classes"
+    ]
+  },
+  {
+    "title": "Advanced TypeScript Types",
+    "hrefList": [
+      "https://ui.dev/c/typescript/typescript-operators",
+      "https://ui.dev/c/typescript/advanced-function-typing-in-typescript"
+    ]
+  },
+  {
+    "title": "Type Narrowing",
+    "hrefList": [
+      "https://ui.dev/c/typescript/common-type-guards-in-typescript",
+      "https://ui.dev/c/typescript/handling-null-and-undefined-in-typescript",
+      "https://ui.dev/c/typescript/practice-narrowing-types",
+      "https://ui.dev/c/typescript/solution-narrowing-types",
+      "https://ui.dev/c/typescript/assertion-signatures-in-typescript",
+      "https://ui.dev/c/typescript/structural-vs-nominal-typing",
+      "https://ui.dev/c/typescript/discriminating-unions-in-typescript",
+      "https://ui.dev/c/typescript/practice-discriminating-unions",
+      "https://ui.dev/c/typescript/solution-discriminating-unions",
+      "https://ui.dev/c/typescript/user-defined-type-guards-with-typescript",
+      "https://ui.dev/c/typescript/practice-user-defined-type-guards",
+      "https://ui.dev/c/typescript/solution-user-defined-type-guards"
+    ]
+  },
+  {
+    "title": "Generics",
+    "hrefList": [
+      "https://ui.dev/c/typescript/generics-in-typescript",
+      "https://ui.dev/c/typescript/generics-constraints",
+      "https://ui.dev/c/typescript/zustand-implementation",
+      "https://ui.dev/c/typescript/practice-generics",
+      "https://ui.dev/c/typescript/solution-generics"
+    ]
+  },
+  {
+    "title": "Transformation Types",
+    "hrefList": [
+      "https://ui.dev/c/typescript/thinking-in-types",
+      "https://ui.dev/c/typescript/mapped-types",
+      "https://ui.dev/c/typescript/conditional-types-in-typescript",
+      "https://ui.dev/c/typescript/practice-utility-types",
+      "https://ui.dev/c/typescript/solution-utility-types"
+    ]
+  },
+  {
+    "title": "Modules",
+    "hrefList": [
+      "https://ui.dev/c/typescript/modules-in-typescript",
+      "https://ui.dev/c/typescript/typescript-namespaces"
+    ]
+  },
+  {
+    "title": "Type Declarations",
+    "hrefList": [
+      "https://ui.dev/c/typescript/built-in-type-definitions",
+      "https://ui.dev/c/typescript/outputting-typescript-definitions",
+      "https://ui.dev/c/typescript/definitely-typed-and-types-packages",
+      "https://ui.dev/c/typescript/typing-an-npm-module-that-has-no-types-with-typescript"
+    ]
+  },
+  {
+    "title": "Advanced TypeScript Configuration",
+    "hrefList": [
+      "https://ui.dev/c/typescript/additional-tsconfig-json-options",
+      "https://ui.dev/c/typescript/how-the-target-field-works-in-typescript",
+      "https://ui.dev/c/typescript/module-resolution-in-typescript",
+      "https://ui.dev/c/typescript/project-references",
+      "https://ui.dev/c/typescript/configuring-typescript-for-webpack-development",
+      "https://ui.dev/c/typescript/configuring-typescript-for-babel-development",
+      "https://ui.dev/c/typescript/configuring-typescript-for-modern-web-development",
+      "https://ui.dev/c/typescript/configuring-typescript-for-node-development",
+      "https://ui.dev/c/typescript/configuring-typescript-for-library-development-with-tsdx"
+    ]
+  },
+  {
+    "title": "Advanced Transformation Types",
+    "hrefList": [
+      "https://ui.dev/c/typescript/recursive-conditional-types",
+      "https://ui.dev/c/typescript/template-literal-types",
+      "https://ui.dev/c/typescript/mapped-types-key-remapping"
+    ]
+  },
+  {
+    "title": "Extra Topics",
+    "hrefList": [
+      "https://ui.dev/c/typescript/adding-tsdocs-to-type-annotations",
+      "https://ui.dev/c/typescript/migrating-from-js-to-ts",
+      "https://ui.dev/c/typescript/unexpected-typescript-behavior",
+      "https://ui.dev/c/typescript/experimental-typescript-decorators"
+    ]
+  },
+  {
+    "title": "Project - Web Server",
+    "hrefList": [
+      "https://ui.dev/c/typescript/nodejs-setup",
+      "https://ui.dev/c/typescript/static-web-server",
+      "https://ui.dev/c/typescript/multiple-routes",
+      "https://ui.dev/c/typescript/dynamic-api-router"
+    ]
+  },
+  {
+    "title": "Outro",
+    "hrefList": ["https://ui.dev/c/typescript/outro"]
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Introduction",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/introduction-philosophy-and-tips",
+      "https://ui.dev/c/react-with-typescript/projects-what-you-ll-build"
+    ]
+  },
+  {
+    "title": "Configuring TypeScript for React",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/configuring-typescript-for-react"
+    ]
+  },
+  {
+    "title": "Annotating Components",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/class-components",
+      "https://ui.dev/c/react-with-typescript/practice-annotating-components",
+      "https://ui.dev/c/react-with-typescript/solution-annotating-components",
+      "https://ui.dev/c/react-with-typescript/function-components"
+    ]
+  },
+  {
+    "title": "Built-In React Types",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/component-and-element-types",
+      "https://ui.dev/c/react-with-typescript/intrinsic-elements"
+    ]
+  },
+  {
+    "title": "Hooks",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/usestate-usereducer",
+      "https://ui.dev/c/react-with-typescript/practice-usereducer",
+      "https://ui.dev/c/react-with-typescript/solution-usereducer",
+      "https://ui.dev/c/react-with-typescript/useeffect-usememo-usecallback"
+    ]
+  },
+  {
+    "title": "Typing Props",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/common-props-patterns",
+      "https://ui.dev/c/react-with-typescript/event-handlers",
+      "https://ui.dev/c/react-with-typescript/advanced-props-patterns",
+      "https://ui.dev/c/react-with-typescript/prop-types",
+      "https://ui.dev/c/react-with-typescript/practice-props",
+      "https://ui.dev/c/react-with-typescript/solution-props"
+    ]
+  },
+  {
+    "title": "Context",
+    "hrefList": ["https://ui.dev/c/react-with-typescript/context"]
+  },
+  {
+    "title": "Refs",
+    "hrefList": ["https://ui.dev/c/react-with-typescript/refs"]
+  },
+  {
+    "title": "Project: TypeScript Conversion",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/project-introduction",
+      "https://ui.dev/c/react-with-typescript/project-typescript-configuration",
+      "https://ui.dev/c/react-with-typescript/project-api",
+      "https://ui.dev/c/react-with-typescript/project-hooks-context-tooltip",
+      "https://ui.dev/c/react-with-typescript/project-battle",
+      "https://ui.dev/c/react-with-typescript/project-card-nav-loading",
+      "https://ui.dev/c/react-with-typescript/project-popular",
+      "https://ui.dev/c/react-with-typescript/project-results"
+    ]
+  },
+  {
+    "title": "Outro",
+    "hrefList": ["https://ui.dev/c/react-with-typescript/whats-next"]
+  }
+]
