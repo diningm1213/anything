@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Welcome",
+    "hrefList": []
+  },
+  {
+    "title": "The Big Picture",
+    "hrefList": []
+  },
+  {
+    "title": "Describing UI",
+    "hrefList": [
+      "https://ui.dev/c/react/badge-variables-challenge",
+      "https://ui.dev/c/react/dynamic-date-challenge",
+      "https://ui.dev/c/react/adjacent-elements-challenge",
+      "https://ui.dev/c/react/conditional-rendering-challenge",
+      "https://ui.dev/c/react/ternary-rendering-challenge",
+      "https://ui.dev/c/react/rendering-lists-challenge",
+      "https://ui.dev/c/react/rendering-lists-no-keys-challenge",
+      "https://ui.dev/c/react/string-props-challenge",
+      "https://ui.dev/c/react/object-props-challenge",
+      "https://ui.dev/c/react/function-props-challenge",
+      "https://ui.dev/c/react/children-props-challenge"
+    ]
+  },
+  {
+    "title": "Bringing React to Life",
+    "hrefList": [
+      "https://ui.dev/c/react/character-limit-challenge",
+      "https://ui.dev/c/react/character-limit-props-challenge",
+      "https://ui.dev/c/react/light-switch-challenge",
+      "https://ui.dev/c/react/light-switch-concise-challenge",
+      "https://ui.dev/c/react/counter-challenge",
+      "https://ui.dev/c/react/password-toggle-challenge",
+      "https://ui.dev/c/react/multistep-form-challenge",
+      "https://ui.dev/c/react/form-builder-challenge"
+    ]
+  },
+  {
+    "title": "Escaping React",
+    "hrefList": [
+      "https://ui.dev/c/react/search-filter-challenge",
+      "https://ui.dev/c/react/clock-challenge",
+      "https://ui.dev/c/react/country-info-challenge",
+      "https://ui.dev/c/react/hacker-news-challenge",
+      "https://ui.dev/c/react/autofocus-challenge",
+      "https://ui.dev/c/react/video-player-challenge",
+      "https://ui.dev/c/react/field-notes-challenge",
+      "https://ui.dev/c/react/click-outside-challenge",
+      "https://ui.dev/c/react/expanding-textarea-challenge",
+      "https://ui.dev/c/react/follow-the-leader-challenge",
+      "https://ui.dev/c/react/auth-challenge",
+      "https://ui.dev/c/react/translations-challenge",
+      "https://ui.dev/c/react/tabs-challenge",
+      "https://ui.dev/c/react/news-feed-challenge"
+    ]
+  },
+  {
+    "title": "Optimizing React",
+    "hrefList": [
+      "https://ui.dev/c/react/multistep-form-reducer-challenge",
+      "https://ui.dev/c/react/task-manager-challenge",
+      "https://ui.dev/c/react/add-to-cart-challenge",
+      "https://ui.dev/c/react/undo-redo-challenge",
+      "https://ui.dev/c/react/localized-primes-challenge",
+      "https://ui.dev/c/react/data-table-challenge",
+      "https://ui.dev/c/react/optimizing-renders-challenge",
+      "https://ui.dev/c/react/react-ruler-challenge",
+      "https://ui.dev/c/react/flexible-tooltip-challenge",
+      "https://ui.dev/c/react/match-media-challenge"
+    ]
+  },
+  {
+    "title": "Custom Hooks",
+    "hrefList": []
+  },
+  {
+    "title": "Rebuilding useHooks",
+    "hrefList": [
+      "https://ui.dev/c/react/usedocumenttitle-challenge",
+      "https://ui.dev/c/react/usedefault-challenge",
+      "https://ui.dev/c/react/usetoggle-challenge",
+      "https://ui.dev/c/react/useprevious-challenge",
+      "https://ui.dev/c/react/usepreferredlanguage-challenge",
+      "https://ui.dev/c/react/usefavicon-challenge",
+      "https://ui.dev/c/react/usecopytoclipboard-challenge",
+      "https://ui.dev/c/react/useinterval-challenge",
+      "https://ui.dev/c/react/usecounter-challenge",
+      "https://ui.dev/c/react/uselockbodyscroll-challenge",
+      "https://ui.dev/c/react/usequeue-challenge",
+      "https://ui.dev/c/react/usetimeout-challenge",
+      "https://ui.dev/c/react/usewindowsize-challenge",
+      "https://ui.dev/c/react/usevisibilitychange-challenge",
+      "https://ui.dev/c/react/uselist-challenge",
+      "https://ui.dev/c/react/useobjectstate-challenge",
+      "https://ui.dev/c/react/usedebounce-challenge",
+      "https://ui.dev/c/react/usecontinuousretry-challenge",
+      "https://ui.dev/c/react/usehistorystate-challenge",
+      "https://ui.dev/c/react/useeventlistener-challenge",
+      "https://ui.dev/c/react/userandominterval-challenge",
+      "https://ui.dev/c/react/usemediaquery-challenge",
+      "https://ui.dev/c/react/useintervalwhen-challenge",
+      "https://ui.dev/c/react/usemouse-challenge",
+      "https://ui.dev/c/react/useclickaway-challenge",
+      "https://ui.dev/c/react/usewindowscroll-challenge",
+      "https://ui.dev/c/react/uselogger-challenge",
+      "https://ui.dev/c/react/useorientation-challenge",
+      "https://ui.dev/c/react/usebattery-challenge",
+      "https://ui.dev/c/react/usepageleave-challenge",
+      "https://ui.dev/c/react/usekeypress-challenge",
+      "https://ui.dev/c/react/usethrottle-challenge",
+      "https://ui.dev/c/react/useidle-challenge",
+      "https://ui.dev/c/react/usefetch-challenge",
+      "https://ui.dev/c/react/usecountdown-challenge",
+      "https://ui.dev/c/react/usegeolocation-challenge",
+      "https://ui.dev/c/react/uselocalstorage-challenge",
+      "https://ui.dev/c/react/usesessionstorage-challenge",
+      "https://ui.dev/c/react/useisclient-challenge",
+      "https://ui.dev/c/react/usenetworkstate-challenge",
+      "https://ui.dev/c/react/uselongpress-challenge"
+    ]
+  },
+  {
+    "title": "Interview Questions",
+    "hrefList": []
+  },
+  {
+    "title": "Server Components\nComing Soon",
+    "hrefList": []
+  },
+  {
+    "title": "Before you go...",
+    "hrefList": []
+  }
+]

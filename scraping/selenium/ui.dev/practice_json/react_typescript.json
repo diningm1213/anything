@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Introduction",
+    "hrefList": []
+  },
+  {
+    "title": "Configuring TypeScript for React",
+    "hrefList": []
+  },
+  {
+    "title": "Annotating Components",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/practice-annotating-components",
+      "https://ui.dev/c/react-with-typescript/solution-annotating-components"
+    ]
+  },
+  {
+    "title": "Built-In React Types",
+    "hrefList": []
+  },
+  {
+    "title": "Hooks",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/practice-usereducer",
+      "https://ui.dev/c/react-with-typescript/solution-usereducer"
+    ]
+  },
+  {
+    "title": "Typing Props",
+    "hrefList": [
+      "https://ui.dev/c/react-with-typescript/practice-props",
+      "https://ui.dev/c/react-with-typescript/solution-props"
+    ]
+  },
+  {
+    "title": "Context",
+    "hrefList": []
+  },
+  {
+    "title": "Refs",
+    "hrefList": []
+  },
+  {
+    "title": "Project: TypeScript Conversion",
+    "hrefList": []
+  },
+  {
+    "title": "Outro",
+    "hrefList": []
+  }
+]

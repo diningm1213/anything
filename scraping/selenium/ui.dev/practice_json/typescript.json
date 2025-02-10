@@ -1,0 +1,105 @@
+[
+  {
+    "title": "Introduction",
+    "hrefList": []
+  },
+  {
+    "title": "TypeScript Overview",
+    "hrefList": []
+  },
+  {
+    "title": "Typing in JavaScript",
+    "hrefList": []
+  },
+  {
+    "title": "Getting TypeScript Configured",
+    "hrefList": []
+  },
+  {
+    "title": "Basic Type Checking",
+    "hrefList": [
+      "https://ui.dev/c/typescript/practice-type-annotations",
+      "https://ui.dev/c/typescript/solution-type-annotations"
+    ]
+  },
+  {
+    "title": "Special TypeScript Types",
+    "hrefList": [
+      "https://ui.dev/c/typescript/practice-interfaces",
+      "https://ui.dev/c/typescript/solution-interfaces",
+      "https://ui.dev/c/typescript/practice-union-and-literal-types",
+      "https://ui.dev/c/typescript/solution-union-literal-types"
+    ]
+  },
+  {
+    "title": "Tic Tac Toe",
+    "hrefList": []
+  },
+  {
+    "title": "Classes",
+    "hrefList": [
+      "https://ui.dev/c/typescript/practice-classes",
+      "https://ui.dev/c/typescript/solution-classes"
+    ]
+  },
+  {
+    "title": "Advanced TypeScript Types",
+    "hrefList": []
+  },
+  {
+    "title": "Type Narrowing",
+    "hrefList": [
+      "https://ui.dev/c/typescript/practice-narrowing-types",
+      "https://ui.dev/c/typescript/solution-narrowing-types",
+      "https://ui.dev/c/typescript/practice-discriminating-unions",
+      "https://ui.dev/c/typescript/solution-discriminating-unions",
+      "https://ui.dev/c/typescript/practice-user-defined-type-guards",
+      "https://ui.dev/c/typescript/solution-user-defined-type-guards"
+    ]
+  },
+  {
+    "title": "Generics",
+    "hrefList": [
+      "https://ui.dev/c/typescript/practice-generics",
+      "https://ui.dev/c/typescript/solution-generics"
+    ]
+  },
+  {
+    "title": "Transformation Types",
+    "hrefList": [
+      "https://ui.dev/c/typescript/practice-utility-types",
+      "https://ui.dev/c/typescript/solution-utility-types"
+    ]
+  },
+  {
+    "title": "Modules",
+    "hrefList": []
+  },
+  {
+    "title": "Type Declarations",
+    "hrefList": []
+  },
+  {
+    "title": "Advanced TypeScript Configuration",
+    "hrefList": [
+      "https://ui.dev/c/typescript/module-resolution-in-typescript",
+      "https://ui.dev/c/typescript/module-resolution-in-typescript-quiz"
+    ]
+  },
+  {
+    "title": "Advanced Transformation Types",
+    "hrefList": []
+  },
+  {
+    "title": "Extra Topics",
+    "hrefList": []
+  },
+  {
+    "title": "Project - Web Server",
+    "hrefList": []
+  },
+  {
+    "title": "Outro",
+    "hrefList": []
+  }
+]

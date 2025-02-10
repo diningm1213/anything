@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Welcome",
+    "hrefList": []
+  },
+  {
+    "title": "Laying The Foundation",
+    "hrefList": [
+      "https://ui.dev/c/query/book-title-challenge",
+      "https://ui.dev/c/query/book-status-challenge"
+    ]
+  },
+  {
+    "title": "Querying Data",
+    "hrefList": [
+      "https://ui.dev/c/query/book-data-challenge",
+      "https://ui.dev/c/query/book-selector-challenge",
+      "https://ui.dev/c/query/book-availability-challenge",
+      "https://ui.dev/c/query/book-search-challenge",
+      "https://ui.dev/c/query/cache-cleanup-challenge"
+    ]
+  },
+  {
+    "title": "Advanced Query Patterns",
+    "hrefList": [
+      "https://ui.dev/c/query/latest-activity-challenge",
+      "https://ui.dev/c/query/single-review-challenge",
+      "https://ui.dev/c/query/book-reviews-challenge",
+      "https://ui.dev/c/query/instant-navigation-challenge",
+      "https://ui.dev/c/query/search-results-challenge",
+      "https://ui.dev/c/query/activity-feed-challenge"
+    ]
+  },
+  {
+    "title": "Handling User Interactions",
+    "hrefList": [
+      "https://ui.dev/c/query/book-checkout-challenge",
+      "https://ui.dev/c/query/leave-a-review-challenge",
+      "https://ui.dev/c/query/instant-checkout-challenge"
+    ]
+  },
+  {
+    "title": "Scaling Your App",
+    "hrefList": [
+      "https://ui.dev/c/query/customizing-defaults-challenge",
+      "https://ui.dev/c/query/managing-query-keys-challenge",
+      "https://ui.dev/c/query/optimized-book-search-challenge",
+      "https://ui.dev/c/query/error-handling-challenge",
+      "https://ui.dev/c/query/validating-query-data-challenge"
+    ]
+  },
+  {
+    "title": "Plugins & Adapters",
+    "hrefList": []
+  },
+  {
+    "title": "Testing",
+    "hrefList": []
+  },
+  {
+    "title": "Bonus Time",
+    "hrefList": []
+  },
+  {
+    "title": "Before you go...",
+    "hrefList": []
+  }
+]

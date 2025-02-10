@@ -1,0 +1,106 @@
+[
+  {
+    "title": "The Fundamentals",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-the-fundamentals",
+      "https://ui.dev/c/react-router/solution-the-fundamentals"
+    ]
+  },
+  {
+    "title": "URL Parameters",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-url-parameters",
+      "https://ui.dev/c/react-router/solution-url-parameters"
+    ]
+  },
+  {
+    "title": "Query Strings",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-query-strings",
+      "https://ui.dev/c/react-router/solution-query-strings"
+    ]
+  },
+  {
+    "title": "Customizing Link",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-customizing-link",
+      "https://ui.dev/c/react-router/solution-customizing-link"
+    ]
+  },
+  {
+    "title": "Nested Routes",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-nested-routes",
+      "https://ui.dev/c/react-router/solution-nested-routes",
+      "https://ui.dev/c/react-router/practice-nested-routes-outlet",
+      "https://ui.dev/c/react-router/solution-nested-routes-outlet"
+    ]
+  },
+  {
+    "title": "Programmatically Navigate",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-navigate-declarative",
+      "https://ui.dev/c/react-router/solution-navigate-declarative",
+      "https://ui.dev/c/react-router/practice-navigate-imperative",
+      "https://ui.dev/c/react-router/solution-navigate-imperative"
+    ]
+  },
+  {
+    "title": "Code Splitting",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-react-lazy",
+      "https://ui.dev/c/react-router/solution-react-lazy"
+    ]
+  },
+  {
+    "title": "Route Configs",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-route-config",
+      "https://ui.dev/c/react-router/solution-route-config"
+    ]
+  },
+  {
+    "title": "Animated Transitions",
+    "hrefList": []
+  },
+  {
+    "title": "Protected Routes",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-protected-routes",
+      "https://ui.dev/c/react-router/solution-protected-routes"
+    ]
+  },
+  {
+    "title": "404 Pages",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-catch-all-routes",
+      "https://ui.dev/c/react-router/solution-catch-all-routes"
+    ]
+  },
+  {
+    "title": "Passing Props to Link",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-passing-props-to-link",
+      "https://ui.dev/c/react-router/solution-passing-props-to-link"
+    ]
+  },
+  {
+    "title": "Sidebars",
+    "hrefList": [
+      "https://ui.dev/c/react-router/practice-sidebar",
+      "https://ui.dev/c/react-router/solution-sidebar"
+    ]
+  },
+  {
+    "title": "Preventing Transitions",
+    "hrefList": []
+  },
+  {
+    "title": "Bonus",
+    "hrefList": []
+  },
+  {
+    "title": "Outro",
+    "hrefList": []
+  }
+]

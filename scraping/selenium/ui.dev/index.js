@@ -1,6 +1,6 @@
 const { Builder, By, Key, until } = require("selenium-webdriver");
 require("dotenv").config();
-const course = "react_gg";
+const course = "typescript";
 const courseData = require(`./json/${course}.json`);
 const fs = require("fs");
 const axios = require("axios");
@@ -53,7 +53,7 @@ const run = async () => {
         const getNumber = (n) => String(n).padStart(2, "0");
 
         // 파일로 저장
-        const filename = `./react_gg/${getNumber(i)}_${title}/${getNumber(
+        const filename = `./${course}/${getNumber(i)}_${title}/${getNumber(
           j
         )}_${href.split("/").pop()}.html`;
         ensureDirectoryExistence(filename);
@@ -71,7 +71,7 @@ const run = async () => {
         for (const cssUrl of cssUrls) {
           try {
             const response = await axios.get(cssUrl);
-            const cssFilename = `./react_gg/${getNumber(
+            const cssFilename = `./${course}/${getNumber(
               i
             )}_${title}/${path.basename(cssUrl)}`;
             ensureDirectoryExistence(cssFilename);

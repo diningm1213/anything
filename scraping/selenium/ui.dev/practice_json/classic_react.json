@@ -1,0 +1,89 @@
+[
+  {
+    "title": "React Overview",
+    "hrefList": []
+  },
+  {
+    "title": "The Road to Hello World",
+    "hrefList": []
+  },
+  {
+    "title": "Passing Data to Components",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/props-practice-1",
+      "https://ui.dev/c/classic-react/props-solution-1",
+      "https://ui.dev/c/classic-react/props-practice-2",
+      "https://ui.dev/c/classic-react/props-solution-2",
+      "https://ui.dev/c/classic-react/props-practice-3",
+      "https://ui.dev/c/classic-react/props-solution-3"
+    ]
+  },
+  {
+    "title": "Rendering Lists",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/lists-practice-1",
+      "https://ui.dev/c/classic-react/lists-solution-1",
+      "https://ui.dev/c/classic-react/lists-practice-2",
+      "https://ui.dev/c/classic-react/lists-solution-2"
+    ]
+  },
+  {
+    "title": "Managing State",
+    "hrefList": [
+      "https://ui.dev/c/classic-react/state-practice-1",
+      "https://ui.dev/c/classic-react/state-solution-1",
+      "https://ui.dev/c/classic-react/state-practice-2",
+      "https://ui.dev/c/classic-react/state-solution-2",
+      "https://ui.dev/c/classic-react/state-practice-3",
+      "https://ui.dev/c/classic-react/state-solution-3"
+    ]
+  },
+  {
+    "title": "Functional Components",
+    "hrefList": []
+  },
+  {
+    "title": "Validating Props with PropTypes",
+    "hrefList": []
+  },
+  {
+    "title": "The Component Lifecycle",
+    "hrefList": []
+  },
+  {
+    "title": "Handling Form State",
+    "hrefList": []
+  },
+  {
+    "title": "Building Reusable Components",
+    "hrefList": []
+  },
+  {
+    "title": "Code Sharing",
+    "hrefList": []
+  },
+  {
+    "title": "Bypassing Props with Context",
+    "hrefList": []
+  },
+  {
+    "title": "React Router",
+    "hrefList": []
+  },
+  {
+    "title": "Better Classes with Class Fields",
+    "hrefList": []
+  },
+  {
+    "title": "Performance Gains with Code Splitting",
+    "hrefList": []
+  },
+  {
+    "title": "Production Builds and Hosting",
+    "hrefList": []
+  },
+  {
+    "title": "Outro",
+    "hrefList": []
+  }
+]
